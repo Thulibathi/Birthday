@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codetribe.birthday.MainActivity">
+
+    <TextView
+        android:text="Happy Birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4caf50"
+        android:textAllCaps="true"
+        android:background="#e91e63"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+    <ImageView
+        android:src="@drawable/birth_day"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:text="Mapula Charisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="#4caf50"
+        android:background="#e91e63"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
